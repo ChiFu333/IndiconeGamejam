@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1729a46f79086449a991b5512530e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idCMS: CMS\Configs\ConfigHolder
+  idCMS: CMS/Configs/ConfigHolder
   Components:
   - rid: 4770333491693355076
   - rid: 4770333508773347396
