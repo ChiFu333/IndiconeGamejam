@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8434781551397031942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4220520111138820016}
+  - component: {fileID: 968547337811698801}
+  m_Layer: 0
+  m_Name: ConfigHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4220520111138820016
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434781551397031942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &968547337811698801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434781551397031942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1729a46f79086449a991b5512530e60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idCMS: CMS\Configs\ConfigHolder
+  Components:
+  - rid: 4770333491693355076
+  - rid: 4770333508773347396
+  - rid: 4770333491693355077
+  references:
+    version: 2
+    RefIds:
+    - rid: 4770333491693355076
+      type: {class: ConfigMain, ns: , asm: Assembly-CSharp}
+      data:
+        showFading: 1
+        showLocOnStart: 1
+        RewriteLocWithRus: 0
+    - rid: 4770333491693355077
+      type: {class: ConfigLight, ns: , asm: Assembly-CSharp}
+      data:
+        timeToChangeIntensity: 0.4
+        timeToChangeColor: 0.4
+        LightValueOne: 1.2
+        LightValueTwo: 0.7
+        ColorValueOne: {r: 0.8553459, g: 0.5836794, b: 0.5836794, a: 1}
+        ColorValueTwo: {r: 0.51790977, g: 0.8113208, b: 0.44137886, a: 1}
+    - rid: 4770333508773347396
+      type: {class: ConfigGameStates, ns: , asm: Assembly-CSharp}
+      data:
+        StateSlots:
+        - rid: 4770333508773347402
+        - rid: 4770333508773347401
+    - rid: 4770333508773347401
+      type: {class: BoolState, ns: , asm: Assembly-CSharp}
+      data:
+        name: sfdfs
+        value: 0
+    - rid: 4770333508773347402
+      type: {class: FloatState, ns: , asm: Assembly-CSharp}
+      data:
+        name: 
+        value: 0
